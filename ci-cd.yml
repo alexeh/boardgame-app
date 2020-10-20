@@ -26,8 +26,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       # Install project dependencies, test and build
-      - name: Navigate to source project
-        run: cd cicd-test
       - name: Install dependencies
         run: npm install
       - name: Run build
