@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+$font-stack: Asap, sans-serif;
+
+body {
+  font: 100% $font-stack;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
