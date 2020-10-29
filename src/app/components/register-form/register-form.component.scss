@@ -1,7 +1,7 @@
 em {
   float: right;
   color: #e05c65;
-  padding-left: 10px;
+  padding-right: 20px;
 }
 
 h1 {
@@ -16,7 +16,7 @@ form {
   flex-direction: column;
   padding: 40px;
   height: fit-content;
-  align-items: center;
+  align-items: flex-end;
   border: 1px solid black;
   border-radius: 60px;
   width: fit-content;
@@ -26,7 +26,7 @@ form {
 .form__group {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 0px 15px 25px 15px;
   text-align: center;
 }
 
@@ -34,6 +34,7 @@ input {
   height: 20px;
   font-size: 15px;
   padding: 5px;
+  margin-top: 5px;
 }
 
 button {
@@ -44,6 +45,7 @@ button {
   background-color: #814688;
   border: 1px solid black;
   color: white;
+  align-self: center;
   cursor: pointer;
 }
 
@@ -54,7 +56,7 @@ button {
   }
   form {
     padding: 20px;
-    align-items: self-start;
+    align-items: flex-end;
     margin: auto;
     border: none;
     background-color: transparent;
