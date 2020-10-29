@@ -9,9 +9,11 @@ export class AuthService {
   constructor(private http: HttpClient) {}
 
   signUpUser(dataNewUser: IUser) {
-    let options = {
+    console.log('auth service data received...', dataNewUser);
+
+    /*     let options = {
       headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
     };
-    return this.http.post(this.url, dataNewUser, options);
+    return this.http.post(this.url, dataNewUser, options); */
   }
 }

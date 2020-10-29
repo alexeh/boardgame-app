@@ -10,6 +10,9 @@ import { appRoutes } from './routes';
 import { AppComponent } from './app.component';
 import { RegisterFormComponent } from './components/register-form/register-form.component';
 
+//Services
+import { AuthService } from './services/auth.service';
+
 @NgModule({
   declarations: [AppComponent, RegisterFormComponent],
   imports: [
@@ -18,7 +21,7 @@ import { RegisterFormComponent } from './components/register-form/register-form.
     FormsModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
